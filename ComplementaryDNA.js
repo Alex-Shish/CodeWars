@@ -22,3 +22,6 @@ function DNAStrand(dna){
 console.log(DNAStrand("AAAA")); // "TTTT"
 console.log(DNAStrand("ATTGC")); // "TAACG"
 console.log(DNAStrand("GTAT")); // "CATA"
+
+// a nice solution
+// return dna.replace(/A/g, 't').replace(/T/g, 'a').replace(/C/g, 'g').replace(/G/g, 'c').toUpperCase()
