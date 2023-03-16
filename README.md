@@ -1,2 +1,2 @@
 # CodeWars
-solutions tasks on JS
+# solutions tasks on JS
