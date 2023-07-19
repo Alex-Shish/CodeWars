@@ -72,3 +72,8 @@ function password(str) {
 }
 
     */
+/*
+function password(str) {
+    return ['[A-Z]','[a-z]','\\d','.{8,}'].every(e => new RegExp(e).test(str));
+  }
+*/
