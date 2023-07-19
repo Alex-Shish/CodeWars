@@ -60,3 +60,15 @@ function password(str) {
     console.log(password("abcd1234"));                               // false
     console.log(password("AbcdefGhijKlmnopQRsTuvwxyZ1234567890"));   // true
     console.log(password("Ab1!@#$%^&*()-_+={}[]|\:;?/>.<,"));        // true
+
+    /*
+    best solution:
+
+    function password(str) {
+    return str.length >= 8 &&
+           /[a-z]/.test(str) &&
+           /[A-Z]/.test(str) &&
+           /\d/.test(str);
+}
+
+    */
