@@ -19,6 +19,7 @@ function arrayLeaders(numbers){
     return arr;
 }
 
+
 console.log(arrayLeaders([1,2,3,4,0])); // [4]
 console.log(arrayLeaders([16,17,4,3,5,2])); // [17,5,2]
 console.log(arrayLeaders([-1,-29,-26,-2])); // [-1]
