@@ -27,4 +27,6 @@ function simplify(number) {
     }
     return arr.join('+');
 }
-console.log(simplify(660))
+console.log(simplify(660));
+console.log(simplify(8885499));
+console.log(simplify(600000));
