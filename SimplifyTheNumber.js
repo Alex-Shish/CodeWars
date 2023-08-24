@@ -31,5 +31,5 @@ console.log(simplify(660));
 console.log(simplify(8885499));
 console.log(simplify(600000));
 console.log(simplify(0));
-console.log(simplify(''));
+console.log(simplify('123'));
 console.log(simplify(123456));
